@@ -2,3 +2,6 @@
 ^\.Rproj\.user$
 ^sasif\.Rproj$
 ^LICENSE\.md$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$

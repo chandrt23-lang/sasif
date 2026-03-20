@@ -16,8 +16,9 @@ Description: Provides 'SAS'-style IF/ELSE chains, independent IF rules,
     <https://www.cdisc.org/standards/foundational/adam>.
 License: MIT + file LICENSE
 Encoding: UTF-8
+URL: https://chandrt23-lang.github.io/sasif, https://github.com/chandrt23-lang/sasif
+BugReports: https://github.com/chandrt23-lang/sasif/issues
 Imports:
     data.table
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
-
