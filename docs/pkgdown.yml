@@ -1,8 +1,9 @@
 pandoc: 3.6.3
 pkgdown: 2.2.0
 pkgdown_sha: ~
-articles: {}
-last_built: 2026-03-20T10:59Z
+articles:
+  sasif_introduction: sasif_introduction.html
+last_built: 2026-03-20T11:34Z
 urls:
   reference: https://chandrt23-lang.github.io/sasif/reference
   article: https://chandrt23-lang.github.io/sasif/articles

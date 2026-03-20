@@ -353,3 +353,9 @@ MIT © Thiyagarajan Chandrasekaran
 - [`if_independent()`](https://chandrt23-lang.github.io/sasif/reference/if_independent.md)
   : Create an independent SAS-style IF rule
 
+# Articles
+
+### All vignettes
+
+- [Clinical ADaM Derivations with
+  sasif](https://chandrt23-lang.github.io/sasif/articles/sasif_introduction.md):

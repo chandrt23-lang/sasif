@@ -32,11 +32,18 @@
     <div id="navbar" class="collapse navbar-collapse ms-3">
       <ul class="navbar-nav me-auto">
 <li class="nav-item"><a class="nav-link" href="reference/index.html">Reference</a></li>
+<li class="nav-item dropdown">
+  <button class="nav-link dropdown-toggle" type="button" id="dropdown-articles" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Articles</button>
+  <ul class="dropdown-menu" aria-labelledby="dropdown-articles">
+<li><a class="dropdown-item" href="articles/sasif_introduction.html">Clinical ADaM Derivations with sasif</a></li>
+  </ul>
+</li>
       </ul>
 <ul class="navbar-nav">
 <li class="nav-item"><form class="form-inline" role="search">
  <input class="form-control" type="search" name="search-input" id="search-input" autocomplete="off" aria-label="Search site" placeholder="Search for" data-search-index="search.json">
 </form></li>
+<li class="nav-item"><a class="external-link nav-link" href="https://github.com/chandrt23-lang/sasif/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
       </ul>
 </div>
 
@@ -80,7 +87,7 @@
 <p>One condition. All assignments grouped together. Just like SAS:</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># ✅ sasif — condition written ONCE, governs all assignments</span></span>
-<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va">sasif</span><span class="op">)</span></span>
+<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://chandrt23-lang.github.io/sasif">sasif</a></span><span class="op">)</span></span>
 <span></span>
 <span><span class="va">ADSL</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/data_step.html">data_step</a></span><span class="op">(</span><span class="va">adsl</span>,</span>
 <span>  <span class="fu"><a href="reference/if_do.html">if_do</a></span><span class="op">(</span><span class="va">ACTARMCD</span> <span class="op">==</span> <span class="st">"TRTA"</span>,</span>
@@ -432,6 +439,8 @@
 <h2 data-toc-skip>Links</h2>
 <ul class="list-unstyled">
 <li><a href="https://cloud.r-project.org/package=sasif" class="external-link">View on CRAN</a></li>
+<li><a href="https://github.com/chandrt23-lang/sasif/" class="external-link">Browse source code</a></li>
+<li><a href="https://github.com/chandrt23-lang/sasif/issues" class="external-link">Report a bug</a></li>
 </ul>
 </div>
 
